@@ -2,9 +2,10 @@
   "name": "wordpress-installer",
   "version": "0.0.1",
   "description": "Wordpress installer",
+	"main": "index.js",
   "dependencies": {
     "request": "^2.79.0",
-    "tar-stream": "^1.5.2",
+    "tar-stream": "^1.5.2"
   },
   "devDependencies": {},
   "scripts": {
