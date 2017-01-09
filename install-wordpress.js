@@ -1,2 +1,2 @@
 var installer = require('./lib/installer.js');
-installer();
+installer().ensure();
