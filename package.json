@@ -1,0 +1,13 @@
+{
+  "name": "wordpress-installer",
+  "version": "0.0.1",
+  "description": "Wordpress installer",
+  "dependencies": {
+    "request": "^2.79.0",
+    "tar-stream": "^1.5.2",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install-wordpress": "node install-wordpress.js"
+  }
+}
