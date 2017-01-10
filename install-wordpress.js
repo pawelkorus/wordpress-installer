@@ -1,2 +1,5 @@
 var installer = require('./lib/installer.js');
-installer().ensure();
+installer({
+	wordpressRoot: 'wordpress-latest',
+	version: 'latest'
+}).ensure();
